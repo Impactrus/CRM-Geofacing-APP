@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nazwa kontaktu (opcjonalnie)"
+        android:textColor="@color/crm_heading"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/et_task_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_search_bar"
+        android:hint="np. Kinia"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="12dp"
+        android:textColor="@color/crm_heading"
+        android:textColorHint="@color/crm_placeholder"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numer telefonu"
+        android:textColor="@color/crm_heading"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/et_task_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_search_bar"
+            android:hint="np. 500600700"
+            android:inputType="phone"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/crm_heading"
+            android:textColorHint="@color/crm_placeholder"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/btn_pick_contacts"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_contacts"
+            app:tint="@color/crm_primary"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Z kontaktów" />
+
+        <ImageView
+            android:id="@+id/btn_pick_recent"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_recent"
+            app:tint="@color/crm_primary"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Z ostatnich połączeń" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opis zadania"
+        android:textColor="@color/crm_heading"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/et_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_search_bar"
+        android:hint="np. Kupno nawozów"
+        android:inputType="text"
+        android:paddingHorizontal="12dp"
+        android:textColor="@color/crm_heading"
+        android:textColorHint="@color/crm_placeholder"
+        android:textSize="14sp" />
+
+</LinearLayout>
