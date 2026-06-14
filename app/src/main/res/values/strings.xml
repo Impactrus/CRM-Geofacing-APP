@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Historia Połączeń</string>
+    <string name="title_dashboard">Rejestr Połączeń</string>
+    <string name="search_hint">Szukaj kontaktu lub numeru...</string>
+    <string name="filter_all">Wszystkie</string>
+    <string name="filter_incoming">Przychodzące</string>
+    <string name="filter_outgoing">Wychodzące</string>
+    <string name="filter_missed">Nieodebrane</string>
+    <string name="stat_total">Wszystkie dzisiaj</string>
+    <string name="stat_missed">Nieodebrane dzisiaj</string>
+    <string name="permission_rationale">Aplikacja wymaga dostępu do rejestru połączeń, aby móc wyświetlić historię połączeń.</string>
+    <string name="btn_grant">Daj dostęp</string>
+    <string name="no_calls">Brak połączeń do wyświetlenia</string>
+    <string name="call_incoming">Przychodzące</string>
+    <string name="call_outgoing">Wychodzące</string>
+    <string name="call_missed">Nieodebrane</string>
+    <string name="call_duration_seconds">%1$d sek.</string>
+    <string name="call_duration_minutes">%1$d min %2$d sek.</string>
+</resources>

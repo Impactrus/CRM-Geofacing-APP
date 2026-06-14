@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_card"
+    android:layout_marginBottom="8dp">
+
+    <!-- Avatar Initials / Icon Circle -->
+    <TextView
+        android:id="@+id/avatar_circle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_initials_circle"
+        android:gravity="center"
+        android:text="?"
+        android:textColor="@color/status_success_text"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Details -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/caller_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nieznany"
+            android:textStyle="bold"
+            android:textColor="@color/crm_heading"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/call_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Incoming • 34s"
+            android:textSize="12sp"
+            android:textColor="@color/crm_secondary"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <!-- Right Side status / Date -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/call_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nieodebrane"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:textColor="@color/status_error_text"
+            android:background="@drawable/bg_tab_inactive" />
+
+        <TextView
+            android:id="@+id/call_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:30"
+            android:textSize="11sp"
+            android:textColor="@color/crm_placeholder"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+</LinearLayout>

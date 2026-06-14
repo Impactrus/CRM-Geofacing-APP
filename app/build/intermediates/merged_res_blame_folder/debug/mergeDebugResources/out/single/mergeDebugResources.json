@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_bg_card.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_bg_search_bar.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/bg_search_bar.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/layout_item_call.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/layout/item_call.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_bg_tab_bar.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/bg_tab_bar.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_bg_tab_inactive.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/bg_tab_inactive.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_bg_tab_active.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/bg_tab_active.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_ic_search.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_bg_initials_circle.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/bg_initials_circle.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_logo.png.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/logo.png"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_bg_profile_card.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/bg_profile_card.xml"
+    },
+    {
+        "merged": "com.ossadkowski.crm.callhistory.app-debug-4:/drawable_ic_phone.xml.flat",
+        "source": "com.ossadkowski.crm.callhistory.app-main-6:/drawable/ic_phone.xml"
+    }
+]

@@ -1,0 +1,21 @@
+<resources>
+    <style name="Theme.CallHistoryApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Brand colors -->
+        <item name="colorPrimary">@color/crm_primary</item>
+        <item name="colorPrimaryVariant">@color/crm_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/crm_primary</item>
+        <item name="colorSecondaryVariant">@color/crm_primary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/crm_background</item>
+        <item name="colorOnSurface">@color/crm_heading</item>
+        <item name="colorError">@color/crm_error</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:colorBackground">@color/crm_surface</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
